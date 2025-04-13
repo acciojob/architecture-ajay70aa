@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+body {
+	width: 1100px;
+	margin: 0;
+	padding: 0;
+	background-color: gray;
+}
+.imageContainer {
+	width: 60%;
+}
+.imageContainer > img {
+	object-fit: contain;
+}
+td {
+	text-align: center;
+}
